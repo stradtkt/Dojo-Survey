@@ -1,0 +1,41 @@
+.container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+form div {
+  margin: 16px 0;
+}
+label[for="comment"] {
+  display: block;
+  margin: 0 0 10px 0;
+}
+form textarea {
+  display: block;
+  width: 85%;
+}
+form input[type="text"] {
+  position: relative;
+  left: 70px;
+  width: 41%;
+}
+form select[name="location"] {
+  position: relative;
+  left: 50px;
+  width: 41%;
+}
+form select[name="lang"] {
+  position: relative;
+  left: 23px;
+  width: 41%;
+}
+input[type="submit"] {
+  float: right;
+  position: relative;
+  right: 40px;
+}
